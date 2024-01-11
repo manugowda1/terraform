@@ -18,6 +18,7 @@ resource "azurerm_resource_group" "aks-rg2" {
 # Add Tags
   tags = {
     "environment" = "k8sdev"
+    "demotag"     = "refreshtest"
   }
 
 }
